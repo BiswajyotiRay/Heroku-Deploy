@@ -1,4 +1,4 @@
-FROM ghcr.io/biswajyotiray/mlx:clone
+FROM ghcr.io/biswajyotiray/mlx:ubantusdk
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
