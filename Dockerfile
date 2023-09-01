@@ -1,4 +1,4 @@
-FROM ghcr.io/biswajyotiray/mlx:ubantusdk
+FROM ghcr.io/biswajyotiray/mlx:heroku-mlx
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
