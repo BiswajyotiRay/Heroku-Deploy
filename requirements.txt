@@ -24,11 +24,11 @@ mutagen
 markdown
 natsort
 pillow
-psutil
+psutil>=5.9.5
 pybase64
 pycountry
-pymongo
-pyrogram==2.0.77
+pymongo==4.5.0
+pyrogram==2.0.106
 python-dotenv
 python-magic
 qbittorrent-api
@@ -39,5 +39,5 @@ tenacity
 tgcrypto
 uvloop
 xattr
-yt-dlp==2023.3.4
+yt-dlp==2023.07.06
 tzlocal
