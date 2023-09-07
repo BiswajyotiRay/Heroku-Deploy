@@ -1,4 +1,5 @@
-FROM shakida69/mlx:heroku-bypass
+#FROM shakida69/mlx:heroku-bypass
+FROM ghcr.io/biswajyotiray/mlx:amd64_alpine
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
