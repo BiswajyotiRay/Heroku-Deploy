@@ -1,4 +1,4 @@
-FROM shakida69/mlx:heroku-bypass
+FROM shakida69/mlx:amd64_ubantu
 #FROM ghcr.io/biswajyotiray/mlx:amd64_alpine
 
 WORKDIR /usr/src/app
