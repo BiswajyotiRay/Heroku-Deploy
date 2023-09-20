@@ -1,5 +1,5 @@
-FROM shakida69/mlx:amd64_ubantu
-#FROM ghcr.io/biswajyotiray/mlx:amd64_alpine
+#FROM shakida69/mlx:amd64_ubantu
+FROM ghcr.io/biswajyotiray/mlx:amd64_ubantu
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
